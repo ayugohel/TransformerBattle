@@ -1,6 +1,6 @@
 # Transformer Battle
 
-** How to run **
+*How to run *
 
 1. Open workspace file with Xcode Editor
 
