@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - IQKeyboardManagerSwift (6.4.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - QorumLogs (0.9)
+  - Result (4.1.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - IQKeyboardManagerSwift
+  - Moya
+  - QorumLogs
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - IQKeyboardManagerSwift
+    - Moya
+    - QorumLogs
+    - Result
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  IQKeyboardManagerSwift: d2df660d0b8d64a15cb2537c9ff303213fa515b2
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  QorumLogs: 9a484df6973a3697ac79fe2273140fde6b36dccc
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 482166f20a866d91ab45dba5aa1ee73c4ce3eec3
+
+COCOAPODS: 1.7.5

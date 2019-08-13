@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BattleVC Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BattleVC" class="dashAnchor"></a>
+    <a title="BattleVC Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (24% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BattleVC Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AddUpdateVC.html">AddUpdateVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BattleVC.html">BattleVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ClosureSleeve.html">ClosureSleeve</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HomeVC.html">HomeVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ThemeButton.html">ThemeButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ThemeLabel.html">ThemeLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Transformer.html">Transformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransformerCell.html">TransformerCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Transformer_Battle10keyClouserSivp">keyClouser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Transformer_Battle6size1212CoreGraphics7CGFloatVvp">size12</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:18Transformer_Battle6size1612CoreGraphics7CGFloatVvp">size16</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AppStoryboard.html">AppStoryboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EditType.html">EditType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TransformerService.html">TransformerService</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Sequence.html">Sequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIControl.html">UIControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UINavigationController.html">UINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:18Transformer_Battle2peoiyySDyxq_Gz_ACtSHRzr0_lF">+=(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/FormatStyle.html">FormatStyle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Authorization.html">Authorization</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UserDefaultKeys.html">UserDefaultKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/appFont.html">appFont</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BattleVC</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">BattleVC</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                </div>
+              </div>
+            <p>The purpose of the <code>BattleVC</code> view controller is to provide a user interface where display team Autobot &amp; Decepticon and after complition of the battle diplay winner name and battle count.</p>
+
+<p>There&rsquo;s a matching scene in the <em>BattleVC.storyboard</em> file, and in that scene there are three stackview maintain with team and winner for data display. Go to Interface Builder for details.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Outlets"></a>
+                <a name="//apple_ref/swift/Section/Outlets" class="dashAnchor"></a>
+                <a href="#/Outlets">
+                  <h3 class="section-name">Outlets</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)stackTeam"></a>
+                    <a name="//apple_ref/swift/Property/stackTeam" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)stackTeam">stackTeam</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The UIStackView for winner and Team.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">stackTeam</span><span class="p">:</span> <span class="kt">UIStackView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)stackWinner"></a>
+                    <a name="//apple_ref/swift/Property/stackWinner" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)stackWinner">stackWinner</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">stackWinner</span><span class="p">:</span> <span class="kt">UIStackView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)imgTeamA"></a>
+                    <a name="//apple_ref/swift/Property/imgTeamA" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)imgTeamA">imgTeamA</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The UIImageView for winner and Team icon display.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">imgTeamA</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)imgTeamD"></a>
+                    <a name="//apple_ref/swift/Property/imgTeamD" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)imgTeamD">imgTeamD</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">imgTeamD</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)imgWinner"></a>
+                    <a name="//apple_ref/swift/Property/imgWinner" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)imgWinner">imgWinner</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">imgWinner</span><span class="p">:</span> <span class="kt">UIImageView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblBattleCount"></a>
+                    <a name="//apple_ref/swift/Property/lblBattleCount" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblBattleCount">lblBattleCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The Label for winner and Team data(text) display.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">lblBattleCount</span><span class="p">:</span> <span class="kt"><a href="../Classes/ThemeLabel.html">ThemeLabel</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblWinnerName"></a>
+                    <a name="//apple_ref/swift/Property/lblWinnerName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblWinnerName">lblWinnerName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">lblWinnerName</span><span class="p">:</span> <span class="kt"><a href="../Classes/ThemeLabel.html">ThemeLabel</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblLosserName"></a>
+                    <a name="//apple_ref/swift/Property/lblLosserName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblLosserName">lblLosserName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">lblLosserName</span><span class="p">:</span> <span class="kt"><a href="../Classes/ThemeLabel.html">ThemeLabel</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblTeamDtile"></a>
+                    <a name="//apple_ref/swift/Property/lblTeamDtile" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblTeamDtile">lblTeamDtile</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">lblTeamDtile</span><span class="p">:</span> <span class="kt"><a href="../Classes/ThemeLabel.html">ThemeLabel</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblTeamAtitle"></a>
+                    <a name="//apple_ref/swift/Property/lblTeamAtitle" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)lblTeamAtitle">lblTeamAtitle</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">lblTeamAtitle</span><span class="p">:</span> <span class="kt"><a href="../Classes/ThemeLabel.html">ThemeLabel</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(py)activityIndicator"></a>
+                    <a name="//apple_ref/swift/Property/activityIndicator" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(py)activityIndicator">activityIndicator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The UIActivityIndicatorView display while Battle is running.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">activityIndicator</span><span class="p">:</span> <span class="kt">UIActivityIndicatorView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Variables"></a>
+                <a name="//apple_ref/swift/Section/Variables" class="dashAnchor"></a>
+                <a href="#/Variables">
+                  <h3 class="section-name">Variables</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC06arrAllA0SayAA0A0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/arrAllTransformer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC06arrAllA0SayAA0A0CGvp">arrAllTransformer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrAllTransformer</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC10arrAutobotSayAA0A0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/arrAutobot" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC10arrAutobotSayAA0A0CGvp">arrAutobot</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrAutobot</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC13arrDecepticonSayAA0A0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/arrDecepticon" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC13arrDecepticonSayAA0A0CGvp">arrDecepticon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrDecepticon</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC15arrteamAwinnersSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/arrteamAwinners" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC15arrteamAwinnersSaySSGvp">arrteamAwinners</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrteamAwinners</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC15arrteamDwinnersSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/arrteamDwinners" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC15arrteamDwinnersSaySSGvp">arrteamDwinners</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrteamDwinners</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC17arrteamAeliminateSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/arrteamAeliminate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC17arrteamAeliminateSaySSGvp">arrteamAeliminate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrteamAeliminate</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC17arrteamDeliminateSaySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/arrteamDeliminate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC17arrteamDeliminateSaySSGvp">arrteamDeliminate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">arrteamDeliminate</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Custom%20Methods"></a>
+                <a name="//apple_ref/swift/Section/Custom Methods" class="dashAnchor"></a>
+                <a href="#/Custom%20Methods">
+                  <h3 class="section-name">Custom Methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC5setUPyyF"></a>
+                    <a name="//apple_ref/swift/Method/setUP()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC5setUPyyF">setUP()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is for Basic setup method for this view where apply Label&rsquo;s text, font, fontColor and other necessary function calling</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setUP</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC21showActivityIndicatoryyF"></a>
+                    <a name="//apple_ref/swift/Method/showActivityIndicator()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC21showActivityIndicatoryyF">showActivityIndicator()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is for set activityIndicator and for start animation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showActivityIndicator</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC21hideActivityIndicatoryyF"></a>
+                    <a name="//apple_ref/swift/Method/hideActivityIndicator()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC21hideActivityIndicatoryyF">hideActivityIndicator()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is for and for stop animation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hideActivityIndicator</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC05startB0yyF"></a>
+                    <a name="//apple_ref/swift/Method/startBattle()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC05startB0yyF">startBattle()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is for start Battle where all the conditions executes for important for battle challenge and in conclusion , that display winner team name with winner team icon , Survivors from the losing team.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">startBattle</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC9checkName5teamA0F1DSbAA0A0C_AHtF"></a>
+                    <a name="//apple_ref/swift/Method/checkName(teamA:teamD:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC9checkName5teamA0F1DSbAA0A0C_AHtF">checkName(teamA:teamD:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is for on of the battle condition where check condition for special  rule of Battle that on perticular name it decide winner team and looser team and add points to the winner team.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">checkName</span><span class="p">(</span><span class="nv">teamA</span><span class="p">:</span> <span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">,</span> <span class="nv">teamD</span><span class="p">:</span> <span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC23checkCourageAndStrength5teamA0H1DSbAA0A0C_AHtF"></a>
+                    <a name="//apple_ref/swift/Method/checkCourageAndStrength(teamA:teamD:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC23checkCourageAndStrength5teamA0H1DSbAA0A0C_AHtF">checkCourageAndStrength(teamA:teamD:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is for on of the battle condition where check condition for Battle that
+<strong>If any fighter is down 4 or more points of courage and 3 or more points of strength
+compared to their opponent</strong>
+and it decide winner team and looser team and add points to the winner team.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">checkCourageAndStrength</span><span class="p">(</span><span class="nv">teamA</span><span class="p">:</span> <span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">,</span> <span class="nv">teamD</span><span class="p">:</span> <span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC11checkSkills5teamA0F1DSbAA0A0C_AHtF"></a>
+                    <a name="//apple_ref/swift/Method/checkSkills(teamA:teamD:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC11checkSkills5teamA0F1DSbAA0A0C_AHtF">checkSkills(teamA:teamD:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is for on of the battle condition where check condition for Battle that
+<strong>If one of the fighters is 3 or more points of skill above their opponent</strong>
+and it decide winner team and looser team and add points to the winner team.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">checkSkills</span><span class="p">(</span><span class="nv">teamA</span><span class="p">:</span> <span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">,</span> <span class="nv">teamD</span><span class="p">:</span> <span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:18Transformer_Battle0B2VCC18checkOverAllRating5teamA0H1DSbAA0A0C_AHtF"></a>
+                    <a name="//apple_ref/swift/Method/checkOverAllRating(teamA:teamD:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:18Transformer_Battle0B2VCC18checkOverAllRating5teamA0H1DSbAA0A0C_AHtF">checkOverAllRating(teamA:teamD:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is for on of the battle condition where check condition for Battle that
+<strong>The winner is the Transformer with the highest overall rating</strong>
+and it decide winner team and looser team and add points to the winner team.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">checkOverAllRating</span><span class="p">(</span><span class="nv">teamA</span><span class="p">:</span> <span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">,</span> <span class="nv">teamD</span><span class="p">:</span> <span class="kt"><a href="../Classes/Transformer.html">Transformer</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/View%20Life%20Cycle%20Method"></a>
+                <a name="//apple_ref/swift/Section/View Life Cycle Method" class="dashAnchor"></a>
+                <a href="#/View%20Life%20Cycle%20Method">
+                  <h3 class="section-name">View Life Cycle Method</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(im)viewDidAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewDidAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(im)viewDidAppear:">viewDidAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@Transformer_Battle@objc(cs)BattleVC(im)viewWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@Transformer_Battle@objc(cs)BattleVC(im)viewWillAppear:">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewWillAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-08-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

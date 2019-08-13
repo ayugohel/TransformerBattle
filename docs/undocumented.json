@@ -1,0 +1,1034 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 14,
+      "symbol": "TransformerService",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 16,
+      "symbol": "TransformerService.allSpark",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 17,
+      "symbol": "TransformerService.transformers",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 18,
+      "symbol": "TransformerService.addTransformer(params:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 19,
+      "symbol": "TransformerService.deleteTransformer(id:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 20,
+      "symbol": "TransformerService.editTransformer(params:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 21,
+      "symbol": "TransformerService.getTransformerDetails(id:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 26,
+      "symbol": "TransformerService",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 28,
+      "symbol": "TransformerService.headers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 44,
+      "symbol": "TransformerService.baseURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 49,
+      "symbol": "TransformerService.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 69,
+      "symbol": "TransformerService.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 83,
+      "symbol": "TransformerService.task",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 91,
+      "symbol": "TransformerService.parameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 113,
+      "symbol": "TransformerService.sampleData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 121,
+      "symbol": "String.urlEscaped",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 125,
+      "symbol": "String.utf8Encoded",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 130,
+      "symbol": "+=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 137,
+      "symbol": "Authorization",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/APIManager/APIManager.swift",
+      "line": 138,
+      "symbol": "Authorization.authToken",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/AppDelegate/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/AppDelegate/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/AppDelegate/AppDelegate.swift",
+      "line": 18,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/AppDelegate/AppDelegate.swift",
+      "line": 33,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/AppDelegate/AppDelegate.swift",
+      "line": 38,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/AppDelegate/AppDelegate.swift",
+      "line": 43,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/AppDelegate/AppDelegate.swift",
+      "line": 47,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/AppDelegate/AppDelegate.swift",
+      "line": 51,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 13,
+      "symbol": "UserDefaultKeys",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 14,
+      "symbol": "UserDefaultKeys.authorization",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 18,
+      "symbol": "size12",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 19,
+      "symbol": "size16",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 22,
+      "symbol": "AppStoryboard",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 24,
+      "symbol": "AppStoryboard.HOME",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 26,
+      "symbol": "AppStoryboard.instance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 32,
+      "symbol": "EditType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 33,
+      "symbol": "EditType.Add",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 34,
+      "symbol": "EditType.Edit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 38,
+      "symbol": "appFont",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 39,
+      "symbol": "appFont.regular",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 40,
+      "symbol": "appFont.bold",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 41,
+      "symbol": "appFont.medium",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 42,
+      "symbol": "appFont.semiBold",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Constant/Constant.swift",
+      "line": 43,
+      "symbol": "appFont.light",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 26,
+      "symbol": "AddUpdateVC.txtTeam",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 27,
+      "symbol": "AddUpdateVC.txtStrength",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 28,
+      "symbol": "AddUpdateVC.txtIntelligence",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 29,
+      "symbol": "AddUpdateVC.txtSpeed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 30,
+      "symbol": "AddUpdateVC.txtEndurance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 31,
+      "symbol": "AddUpdateVC.txtRank",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 32,
+      "symbol": "AddUpdateVC.txtCourage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 33,
+      "symbol": "AddUpdateVC.txtFirePower",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 34,
+      "symbol": "AddUpdateVC.txtSkill",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 38,
+      "symbol": "AddUpdateVC.lblTeam",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 39,
+      "symbol": "AddUpdateVC.lblStrength",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 40,
+      "symbol": "AddUpdateVC.lblIntelligence",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 41,
+      "symbol": "AddUpdateVC.lblSpeed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 42,
+      "symbol": "AddUpdateVC.lblEndurance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 43,
+      "symbol": "AddUpdateVC.lblRank",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 44,
+      "symbol": "AddUpdateVC.lblCourage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 45,
+      "symbol": "AddUpdateVC.lblFirePower",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 46,
+      "symbol": "AddUpdateVC.lblSkill",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 57,
+      "symbol": "AddUpdateVC.arrCountTen",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 58,
+      "symbol": "AddUpdateVC.arrCountEight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 59,
+      "symbol": "AddUpdateVC.arrTeam",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 60,
+      "symbol": "AddUpdateVC.pickerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 61,
+      "symbol": "AddUpdateVC.editype",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 63,
+      "symbol": "AddUpdateVC.editDataTransformer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 266,
+      "symbol": "AddUpdateVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 273,
+      "symbol": "AddUpdateVC.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 277,
+      "symbol": "AddUpdateVC.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 286,
+      "symbol": "AddUpdateVC.numberOfComponents(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 290,
+      "symbol": "AddUpdateVC.pickerView(_:numberOfRowsInComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 307,
+      "symbol": "AddUpdateVC.pickerView(_:titleForRow:forComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 324,
+      "symbol": "AddUpdateVC.pickerView(_:didSelectRow:inComponent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/AddUpdateVC.swift",
+      "line": 366,
+      "symbol": "AddUpdateVC.textFieldDidEndEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 26,
+      "symbol": "BattleVC.stackWinner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 30,
+      "symbol": "BattleVC.imgTeamD",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 31,
+      "symbol": "BattleVC.imgWinner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 35,
+      "symbol": "BattleVC.lblWinnerName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 36,
+      "symbol": "BattleVC.lblLosserName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 37,
+      "symbol": "BattleVC.lblTeamDtile",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 38,
+      "symbol": "BattleVC.lblTeamAtitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 45,
+      "symbol": "BattleVC.arrAllTransformer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 46,
+      "symbol": "BattleVC.arrAutobot",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 47,
+      "symbol": "BattleVC.arrDecepticon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 48,
+      "symbol": "BattleVC.arrteamAwinners",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 49,
+      "symbol": "BattleVC.arrteamDwinners",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 50,
+      "symbol": "BattleVC.arrteamAeliminate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 51,
+      "symbol": "BattleVC.arrteamDeliminate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 306,
+      "symbol": "BattleVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 313,
+      "symbol": "BattleVC.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/BattleVC.swift",
+      "line": 317,
+      "symbol": "BattleVC.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 34,
+      "symbol": "HomeVC.arrTransformerList",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 226,
+      "symbol": "HomeVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 233,
+      "symbol": "HomeVC.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 239,
+      "symbol": "HomeVC.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 251,
+      "symbol": "TransformerCell.lblName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 252,
+      "symbol": "TransformerCell.lblTeam",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 253,
+      "symbol": "TransformerCell.btnEdit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 254,
+      "symbol": "TransformerCell.imgIcon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 256,
+      "symbol": "TransformerCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 267,
+      "symbol": "HomeVC.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Controller/HomeVC.swift",
+      "line": 271,
+      "symbol": "HomeVC.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 13,
+      "symbol": "ThemeButton",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 15,
+      "symbol": "ThemeButton.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 21,
+      "symbol": "ThemeButton.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 28,
+      "symbol": "ThemeLabel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 30,
+      "symbol": "ThemeLabel.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 37,
+      "symbol": "keyClouser",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 39,
+      "symbol": "ClosureSleeve",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 40,
+      "symbol": "ClosureSleeve.closure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 42,
+      "symbol": "ClosureSleeve.init(attachTo:closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 47,
+      "symbol": "ClosureSleeve.invoke()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Comman+Extensions.swift",
+      "line": 53,
+      "symbol": "UIControl.addAction(for:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Nsobject+Extension.swift",
+      "line": 11,
+      "symbol": "FormatStyle",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Nsobject+Extension.swift",
+      "line": 16,
+      "symbol": "FormatStyle",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Nsobject+Extension.swift",
+      "line": 18,
+      "symbol": "FormatStyle.textColor(color:state:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Nsobject+Extension.swift",
+      "line": 72,
+      "symbol": "FormatStyle",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Nsobject+Extension.swift",
+      "line": 74,
+      "symbol": "FormatStyle.backGroundColor(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Nsobject+Extension.swift",
+      "line": 122,
+      "symbol": "FormatStyle",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/Nsobject+Extension.swift",
+      "line": 124,
+      "symbol": "FormatStyle.font(name:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/String+Extensions.swift",
+      "line": 9,
+      "symbol": "Array.joined(separator:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/String+Extensions.swift",
+      "line": 23,
+      "symbol": "Array.joined(separator:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/String+Extensions.swift",
+      "line": 30,
+      "symbol": "Sequence.sum()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/UIColor+Extensions.swift",
+      "line": 7,
+      "symbol": "UIColor.themeColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/UIColor+Extensions.swift",
+      "line": 8,
+      "symbol": "UIColor.textColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/UIColor+Extensions.swift",
+      "line": 11,
+      "symbol": "UIColor.init(hexString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/UITextField+Extensions.swift",
+      "line": 7,
+      "symbol": "UITextField.TextFieldConfig",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/UITextField+Extensions.swift",
+      "line": 9,
+      "symbol": "UITextField.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Extensions/UIViewController+Extensions.swift",
+      "line": 11,
+      "symbol": "UINavigationController.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 9,
+      "symbol": "Transformer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 11,
+      "symbol": "Transformer.courage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 12,
+      "symbol": "Transformer.endurance",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 13,
+      "symbol": "Transformer.firepower",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 14,
+      "symbol": "Transformer.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 15,
+      "symbol": "Transformer.intelligence",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 16,
+      "symbol": "Transformer.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 17,
+      "symbol": "Transformer.rank",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 18,
+      "symbol": "Transformer.skill",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 19,
+      "symbol": "Transformer.speed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 20,
+      "symbol": "Transformer.strength",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 21,
+      "symbol": "Transformer.team",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 22,
+      "symbol": "Transformer.teamIcon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 23,
+      "symbol": "Transformer.TransformerId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 25,
+      "symbol": "Transformer.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/dhruvalpatel/Desktop/Transformer Battle/Transformer Battle/Model/Transformer.swift",
+      "line": 169,
+      "symbol": "Transformer.appendArray(jsonArray:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/dhruvalpatel/Desktop/Transformer Battle"
+}

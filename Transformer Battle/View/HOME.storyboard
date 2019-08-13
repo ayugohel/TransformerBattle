@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LNq-cW-SSs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Bold.ttf">
+            <string>Nunito-Bold</string>
+        </array>
+        <array key="Nunito-Light.ttf">
+            <string>Nunito-Light</string>
+        </array>
+        <array key="Nunito-Medium.ttf">
+            <string>Nunito-Medium</string>
+        </array>
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--HOME-->
+        <scene sceneID="L8F-uj-9K4">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" automaticallyAdjustsScrollViewInsets="NO" id="m1V-Fs-M5U" customClass="HomeVC" customModule="Transformer_Battle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BMT-dK-Q9S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="hXh-2r-nxy">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TransformerCell" rowHeight="87" id="pps-Mm-rim" customClass="TransformerCell" customModule="Transformer_Battle" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="1" width="375" height="87"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pps-Mm-rim" id="n3I-Dc-DNg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="86.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KRT-HW-3MU">
+                                                    <rect key="frame" x="20" y="10" width="65" height="65"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="KRT-HW-3MU" secondAttribute="height" multiplier="1:1" id="uvG-u6-4CK"/>
+                                                        <constraint firstAttribute="width" constant="65" id="wKX-C2-bZU"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLe-DS-bk8" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                    <rect key="frame" x="105" y="15" width="44.5" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KY-wD-3dE" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                    <rect key="frame" x="105" y="48.5" width="48" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5d-Wq-X9e">
+                                                    <rect key="frame" x="308" y="33" width="52" height="42"/>
+                                                    <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                                    <state key="normal" title="Edit"/>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="KRT-HW-3MU" firstAttribute="leading" secondItem="n3I-Dc-DNg" secondAttribute="leading" constant="20" id="CCA-Ip-byz"/>
+                                                <constraint firstItem="WLe-DS-bk8" firstAttribute="leading" secondItem="KRT-HW-3MU" secondAttribute="trailing" constant="20" id="EP7-73-NMg"/>
+                                                <constraint firstItem="KRT-HW-3MU" firstAttribute="centerY" secondItem="n3I-Dc-DNg" secondAttribute="centerY" id="IBd-LQ-4sQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="N5d-Wq-X9e" secondAttribute="trailing" constant="15" id="OeB-W7-Riy"/>
+                                                <constraint firstItem="5KY-wD-3dE" firstAttribute="leading" secondItem="KRT-HW-3MU" secondAttribute="trailing" constant="20" id="WVF-2r-R8Q"/>
+                                                <constraint firstItem="WLe-DS-bk8" firstAttribute="top" secondItem="KRT-HW-3MU" secondAttribute="top" constant="5" id="WqW-gx-EQ4"/>
+                                                <constraint firstItem="5KY-wD-3dE" firstAttribute="top" secondItem="WLe-DS-bk8" secondAttribute="bottom" constant="10" id="YRg-df-zmu"/>
+                                                <constraint firstItem="N5d-Wq-X9e" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WLe-DS-bk8" secondAttribute="trailing" constant="20" id="cjR-3N-h9z"/>
+                                                <constraint firstItem="N5d-Wq-X9e" firstAttribute="bottom" secondItem="KRT-HW-3MU" secondAttribute="bottom" id="h6x-PB-kFS"/>
+                                                <constraint firstAttribute="bottom" secondItem="5KY-wD-3dE" secondAttribute="bottom" priority="250" constant="10" id="twq-0v-9J5"/>
+                                                <constraint firstItem="KRT-HW-3MU" firstAttribute="top" secondItem="n3I-Dc-DNg" secondAttribute="top" constant="10" id="xRn-8j-ALx"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="btnEdit" destination="N5d-Wq-X9e" id="Kby-Wn-dzl"/>
+                                            <outlet property="imgIcon" destination="KRT-HW-3MU" id="Yvb-je-MNe"/>
+                                            <outlet property="lblName" destination="WLe-DS-bk8" id="hOv-GV-0Ri"/>
+                                            <outlet property="lblTeam" destination="5KY-wD-3dE" id="ug6-ZO-B3F"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="m1V-Fs-M5U" id="cGa-a8-4PO"/>
+                                    <outlet property="delegate" destination="m1V-Fs-M5U" id="RI3-1s-SAi"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="gek-G8-4jH">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gek-G8-4jH" firstAttribute="centerX" secondItem="BMT-dK-Q9S" secondAttribute="centerX" id="1xm-0j-O4l"/>
+                            <constraint firstItem="o2r-BK-Bq8" firstAttribute="bottom" secondItem="hXh-2r-nxy" secondAttribute="bottom" id="61r-TW-IDu"/>
+                            <constraint firstItem="o2r-BK-Bq8" firstAttribute="trailing" secondItem="hXh-2r-nxy" secondAttribute="trailing" id="NHa-LF-qAI"/>
+                            <constraint firstItem="gek-G8-4jH" firstAttribute="centerY" secondItem="BMT-dK-Q9S" secondAttribute="centerY" id="dwO-xn-s1f"/>
+                            <constraint firstItem="hXh-2r-nxy" firstAttribute="top" secondItem="o2r-BK-Bq8" secondAttribute="top" id="eam-QM-tXc"/>
+                            <constraint firstItem="hXh-2r-nxy" firstAttribute="leading" secondItem="o2r-BK-Bq8" secondAttribute="leading" id="pvw-iA-Y7I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="o2r-BK-Bq8"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HOME" id="AH7-B3-5LC">
+                        <barButtonItem key="leftBarButtonItem" title="Start Battle" id="Qpy-v2-o5n">
+                            <connections>
+                                <action selector="btnBattleTapped:" destination="m1V-Fs-M5U" id="n0U-XE-lkG"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Create" id="Z7z-JY-xsQ">
+                            <connections>
+                                <action selector="btnAddUpdateTapped:" destination="m1V-Fs-M5U" id="zZB-5D-HRj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicator" destination="gek-G8-4jH" id="X5B-sU-zrj"/>
+                        <outlet property="tblTransformer" destination="hXh-2r-nxy" id="zPw-dx-XBI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3KX-o4-h0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="89.505247376311857"/>
+        </scene>
+        <!--Add Transformer-->
+        <scene sceneID="jNh-k1-oIc">
+            <objects>
+                <viewController storyboardIdentifier="AddUpdateVC" automaticallyAdjustsScrollViewInsets="NO" id="6Qb-e1-yAk" customClass="AddUpdateVC" customModule="Transformer_Battle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V10-cH-pTb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="anX-FQ-0dw">
+                                <rect key="frame" x="0.0" y="94" width="375" height="614"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5ud-dW-J8S">
+                                        <rect key="frame" x="50" y="0.0" width="275" height="490"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RoV-8w-A9b">
+                                                <rect key="frame" x="0.0" y="0.0" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSe-qg-Ark" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="57.5" height="40"/>
+                                                        <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1ph-Vr-2Wh">
+                                                        <rect key="frame" x="67.5" y="0.0" width="207.5" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" textContentType="name"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="9TL-nY-tUs"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="ika-y3-bd3"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="h7H-Mi-Kpu">
+                                                <rect key="frame" x="0.0" y="50" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ci5-mB-8sB" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51" height="40"/>
+                                                        <fontDescription key="fontDescription" name="Nunito-Light" family="Nunito" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Team" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V1i-bL-aEf">
+                                                        <rect key="frame" x="61" y="0.0" width="214" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="8QG-G6-gg8"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YKO-6t-KeD">
+                                                <rect key="frame" x="0.0" y="100" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strength :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJg-sT-xw1" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="78" height="40"/>
+                                                        <fontDescription key="fontDescription" name="Nunito-Medium" family="Nunito" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Strength" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OBH-2f-Psr">
+                                                        <rect key="frame" x="88" y="0.0" width="187" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="Q49-g3-JTr"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MVs-vd-cjs">
+                                                <rect key="frame" x="0.0" y="150" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intelligence :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Y3-bs-Fp8" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="99" height="40"/>
+                                                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Intelligence" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BWG-8H-LYV">
+                                                        <rect key="frame" x="109" y="0.0" width="166" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="1LO-dI-thY"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hrW-JF-7K5">
+                                                <rect key="frame" x="0.0" y="200" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6h-oD-P3e" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="58.5" height="40"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Speed" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tyw-5E-vIr">
+                                                        <rect key="frame" x="68.5" y="0.0" width="206.5" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="W01-1s-sh6"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="M4Z-Aj-q0R">
+                                                <rect key="frame" x="0.0" y="250" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Endurance :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8y-Gf-QNh" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="91" height="40"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Endurance" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="axJ-x2-Mnc">
+                                                        <rect key="frame" x="101" y="0.0" width="174" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="PRE-Sc-jYl"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Vi7-aJ-00G">
+                                                <rect key="frame" x="0.0" y="300" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rank :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgy-iN-tPe" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="47.5" height="40"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Rank" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C4b-Fs-TJz">
+                                                        <rect key="frame" x="57.5" y="0.0" width="217.5" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="y0Q-1e-lNa"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gBc-tX-nA8">
+                                                <rect key="frame" x="0.0" y="350" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Courage :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TS4-wH-gAr" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="74.5" height="40"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Courage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eHL-at-6up">
+                                                        <rect key="frame" x="84.5" y="0.0" width="190.5" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="Ez3-A9-d65"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tiz-bE-iok">
+                                                <rect key="frame" x="0.0" y="400" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirePower :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMe-te-mK0" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="85" height="40"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FirePower" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LtC-e4-Pjs">
+                                                        <rect key="frame" x="95" y="0.0" width="180" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="jJA-o7-Hzb"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fhX-uH-M4X">
+                                                <rect key="frame" x="0.0" y="450" width="275" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skill :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaB-5u-osW" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Skill" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cf1-18-HqX">
+                                                        <rect key="frame" x="50" y="0.0" width="225" height="40"/>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <outlet property="delegate" destination="6Qb-e1-yAk" id="rsk-ts-R5A"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5ud-dW-J8S" firstAttribute="top" secondItem="anX-FQ-0dw" secondAttribute="top" id="1kR-En-P3m"/>
+                                    <constraint firstItem="5ud-dW-J8S" firstAttribute="leading" secondItem="anX-FQ-0dw" secondAttribute="leading" constant="50" id="NYR-dL-n7Q"/>
+                                    <constraint firstAttribute="bottom" secondItem="5ud-dW-J8S" secondAttribute="bottom" id="XcM-hS-3a6"/>
+                                    <constraint firstAttribute="trailing" secondItem="5ud-dW-J8S" secondAttribute="trailing" constant="50" id="iKx-k9-MRt"/>
+                                    <constraint firstItem="5ud-dW-J8S" firstAttribute="centerX" secondItem="anX-FQ-0dw" secondAttribute="centerX" id="yhy-HC-3oN"/>
+                                </constraints>
+                            </scrollView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IZC-Sc-gjl">
+                                <rect key="frame" x="169" y="381.5" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmu-NX-001" customClass="ThemeButton" customModule="Transformer_Battle" customModuleProvider="target">
+                                <rect key="frame" x="116" y="723" width="143" height="52"/>
+                                <inset key="contentEdgeInsets" minX="55" minY="15" maxX="55" maxY="15"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnAddUpdateTapped:" destination="6Qb-e1-yAk" eventType="touchUpInside" id="kTt-bq-ti1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="anX-FQ-0dw" firstAttribute="leading" secondItem="Rb8-Tb-6Ls" secondAttribute="leading" id="T5q-KK-T8M"/>
+                            <constraint firstItem="IZC-Sc-gjl" firstAttribute="centerX" secondItem="V10-cH-pTb" secondAttribute="centerX" id="YSN-sA-SLQ"/>
+                            <constraint firstItem="rmu-NX-001" firstAttribute="top" secondItem="anX-FQ-0dw" secondAttribute="bottom" constant="15" id="ZWh-k6-p1f"/>
+                            <constraint firstItem="Rb8-Tb-6Ls" firstAttribute="trailing" secondItem="anX-FQ-0dw" secondAttribute="trailing" id="dQM-jK-TDs"/>
+                            <constraint firstItem="anX-FQ-0dw" firstAttribute="top" secondItem="Rb8-Tb-6Ls" secondAttribute="top" constant="30" id="gto-p6-cj2"/>
+                            <constraint firstItem="Rb8-Tb-6Ls" firstAttribute="bottom" secondItem="rmu-NX-001" secondAttribute="bottom" constant="25" id="oIG-8g-7Xc"/>
+                            <constraint firstItem="IZC-Sc-gjl" firstAttribute="centerY" secondItem="V10-cH-pTb" secondAttribute="centerY" id="rwg-Lk-cDj"/>
+                            <constraint firstItem="rmu-NX-001" firstAttribute="centerX" secondItem="V10-cH-pTb" secondAttribute="centerX" id="wi8-RZ-bgm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rb8-Tb-6Ls"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Transformer" id="FBz-NJ-C8n"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <size key="freeformSize" width="375" height="800"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="IZC-Sc-gjl" id="EAA-cd-tRf"/>
+                        <outlet property="btnAddUpdate" destination="rmu-NX-001" id="5nI-eo-M64"/>
+                        <outlet property="lblCourage" destination="TS4-wH-gAr" id="dlV-c9-rjy"/>
+                        <outlet property="lblEndurance" destination="f8y-Gf-QNh" id="gCG-um-GyC"/>
+                        <outlet property="lblFirePower" destination="zMe-te-mK0" id="rfn-lv-M9e"/>
+                        <outlet property="lblIntelligence" destination="4Y3-bs-Fp8" id="DpT-07-0na"/>
+                        <outlet property="lblName" destination="CSe-qg-Ark" id="DKe-I3-cMZ"/>
+                        <outlet property="lblRank" destination="hgy-iN-tPe" id="iEE-wj-aUb"/>
+                        <outlet property="lblSkill" destination="NaB-5u-osW" id="e70-0d-xKI"/>
+                        <outlet property="lblSpeed" destination="W6h-oD-P3e" id="fGf-oc-9Yy"/>
+                        <outlet property="lblStrength" destination="yJg-sT-xw1" id="9Ho-eD-vrH"/>
+                        <outlet property="lblTeam" destination="Ci5-mB-8sB" id="Q4H-G8-FWI"/>
+                        <outlet property="txtCourage" destination="eHL-at-6up" id="Pf4-sW-g7N"/>
+                        <outlet property="txtEndurance" destination="axJ-x2-Mnc" id="cDo-ki-icX"/>
+                        <outlet property="txtFirePower" destination="LtC-e4-Pjs" id="c70-6E-irw"/>
+                        <outlet property="txtIntelligence" destination="BWG-8H-LYV" id="Uqc-zD-HHc"/>
+                        <outlet property="txtName" destination="1ph-Vr-2Wh" id="Huu-aH-Frm"/>
+                        <outlet property="txtRank" destination="C4b-Fs-TJz" id="1It-w7-vpl"/>
+                        <outlet property="txtSkill" destination="cf1-18-HqX" id="8bj-gx-ssZ"/>
+                        <outlet property="txtSpeed" destination="tyw-5E-vIr" id="63x-9w-4FF"/>
+                        <outlet property="txtStrength" destination="OBH-2f-Psr" id="YXL-tP-td5"/>
+                        <outlet property="txtTeam" destination="V1i-bL-aEf" id="f10-Ay-8qb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FuA-V0-5el" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="89.055472263868069"/>
+        </scene>
+        <!--BATTLE-->
+        <scene sceneID="H8G-4D-aE0">
+            <objects>
+                <viewController storyboardIdentifier="BattleVC" automaticallyAdjustsScrollViewInsets="NO" id="zz6-VA-Bhg" customClass="BattleVC" customModule="Transformer_Battle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h6e-Kv-fOh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O9O-KF-JMc">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="KD6-jP-CRC">
+                                        <rect key="frame" x="25" y="40" width="325" height="215"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WrT-Kv-AdO">
+                                                <rect key="frame" x="0.0" y="0.0" width="325" height="215"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="2xa-PC-pK2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="152.5" height="215"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pp3-ZV-UCa">
+                                                                <rect key="frame" x="0.0" y="0.0" width="152.5" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="100" id="yLX-bp-1Q0"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UF-Eb-vxu" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="115" width="152.5" height="100"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="exu-h1-O9n">
+                                                        <rect key="frame" x="172.5" y="0.0" width="152.5" height="215"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bv2-cN-aKU">
+                                                                <rect key="frame" x="0.0" y="0.0" width="152.5" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="100" id="fz9-sh-zYx"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJS-OE-ZOq" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="115" width="152.5" height="100"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Htt-tE-sJn">
+                                                <rect key="frame" x="0.0" y="0.0" width="325" height="135"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ibf-bg-ZZh">
+                                                        <rect key="frame" x="117.5" y="0.0" width="90" height="90"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="Ibf-bg-ZZh" secondAttribute="height" multiplier="1:1" id="Evu-ge-mT2"/>
+                                                            <constraint firstAttribute="width" constant="90" id="jk7-Dm-YfP"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvs-WM-hqZ" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="141.5" y="105" width="42" height="0.0"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCp-og-esL" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="141.5" y="120" width="42" height="0.0"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5M-nU-G49" customClass="ThemeLabel" customModule="Transformer_Battle" customModuleProvider="target">
+                                                        <rect key="frame" x="141.5" y="135" width="42" height="0.0"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="iwQ-03-2XE">
+                                        <rect key="frame" x="169" y="305" width="37" height="37"/>
+                                        <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="KD6-jP-CRC" firstAttribute="centerX" secondItem="O9O-KF-JMc" secondAttribute="centerX" id="Ha8-He-byq"/>
+                                    <constraint firstAttribute="trailing" secondItem="KD6-jP-CRC" secondAttribute="trailing" constant="25" id="NT5-wc-2mc"/>
+                                    <constraint firstItem="iwQ-03-2XE" firstAttribute="centerX" secondItem="O9O-KF-JMc" secondAttribute="centerX" id="ZtA-6w-hRv"/>
+                                    <constraint firstItem="KD6-jP-CRC" firstAttribute="top" secondItem="O9O-KF-JMc" secondAttribute="top" constant="40" id="aAb-qn-oqR"/>
+                                    <constraint firstItem="KD6-jP-CRC" firstAttribute="leading" secondItem="O9O-KF-JMc" secondAttribute="leading" constant="25" id="cTa-Bq-dli"/>
+                                    <constraint firstAttribute="bottom" secondItem="iwQ-03-2XE" secondAttribute="bottom" constant="20" id="mcv-oK-WXw"/>
+                                    <constraint firstItem="iwQ-03-2XE" firstAttribute="top" secondItem="KD6-jP-CRC" secondAttribute="bottom" constant="50" id="xUy-YE-jgH"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="O9O-KF-JMc" firstAttribute="top" secondItem="hiX-dY-Eva" secondAttribute="top" id="0u2-Lz-7ag"/>
+                            <constraint firstItem="O9O-KF-JMc" firstAttribute="leading" secondItem="hiX-dY-Eva" secondAttribute="leading" id="80g-bg-3eU"/>
+                            <constraint firstItem="hiX-dY-Eva" firstAttribute="bottom" secondItem="O9O-KF-JMc" secondAttribute="bottom" id="c5K-7D-WhV"/>
+                            <constraint firstItem="hiX-dY-Eva" firstAttribute="trailing" secondItem="O9O-KF-JMc" secondAttribute="trailing" id="lqt-iV-5ls"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hiX-dY-Eva"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="BATTLE" id="g1r-FJ-NBe"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="iwQ-03-2XE" id="ChA-dn-nOQ"/>
+                        <outlet property="imgTeamA" destination="pp3-ZV-UCa" id="K58-J6-h2j"/>
+                        <outlet property="imgTeamD" destination="bv2-cN-aKU" id="9d2-ql-mtS"/>
+                        <outlet property="imgWinner" destination="Ibf-bg-ZZh" id="RP2-ki-9HZ"/>
+                        <outlet property="lblBattleCount" destination="Kvs-WM-hqZ" id="Hn7-g8-bGs"/>
+                        <outlet property="lblLosserName" destination="C5M-nU-G49" id="HZk-gy-5AO"/>
+                        <outlet property="lblTeamAtitle" destination="7UF-Eb-vxu" id="TD0-yF-vbI"/>
+                        <outlet property="lblTeamDtile" destination="GJS-OE-ZOq" id="S22-Fh-pJb"/>
+                        <outlet property="lblWinnerName" destination="HCp-og-esL" id="cUi-Wv-Rph"/>
+                        <outlet property="stackTeam" destination="WrT-Kv-AdO" id="mqg-GH-dvZ"/>
+                        <outlet property="stackWinner" destination="Htt-tE-sJn" id="L1x-sQ-UsO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvx-sY-zOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1737" y="29"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="P4Y-6C-fc7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LNq-cW-SSs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U0J-fk-LQo">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="m1V-Fs-M5U" kind="relationship" relationship="rootViewController" id="DO0-kU-Bnm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="elC-gi-SmP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-375.19999999999999" y="90.404797601199405"/>
+        </scene>
+    </scenes>
+</document>
