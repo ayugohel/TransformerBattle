@@ -18,10 +18,22 @@ struct UserDefaultKeys {
 let size12 : CGFloat = 14.0
 let size16 : CGFloat = 16.0
 
+//MARK: string constant
+let kName = "Please enter name"
+let kTEAM = "Please select team"
+let kSTRENGTH = "Please select strength"
+let kINTELLIGENCE = "Please select intelligence"
+let kSPEED = "Please select speed"
+let kENDURANCE = "Please select endurance"
+let kRANK = "Please select rank"
+let kCOURAGE = "Please select courage"
+let kFIREPOWER = "Please select firepower"
+let kSKILL = "Please select skill"
+
 //MARK: storyboard instance
 enum AppStoryboard : String {
     
-    case HOME
+    case TRANSFORMER
     
     var instance : UIStoryboard {
         return UIStoryboard(name: self.rawValue, bundle: Bundle.main)

@@ -9,7 +9,7 @@ extension UITextField {
     open override func awakeFromNib() {
         super.awakeFromNib()
         self.keyboardAppearance = .dark
-        self.textColor(color: .textColor).font(name: appFont.regular)
+        self.textColor(color: .black).font(name: appFont.regular)
     }
     
 }

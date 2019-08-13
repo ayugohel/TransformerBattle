@@ -47,8 +47,8 @@ class BattleVC: UIViewController {
     var arrDecepticon : [Transformer] = []
     var arrteamAwinners : [String] = []
     var arrteamDwinners : [String] = []
-    var arrteamAeliminate : [String] = []
-    var arrteamDeliminate : [String] = []
+    var arrteamAeliminate : [Transformer] = []
+    var arrteamDeliminate : [Transformer] = []
     
     // MARK: - Custom Methods
     
@@ -57,9 +57,9 @@ class BattleVC: UIViewController {
      */
     func setUP() {
         
-        lblLosserName.textColor(color: UIColor.textColor)
-        lblWinnerName.textColor(color: UIColor.textColor)
-        lblBattleCount.textColor(color: UIColor.textColor)
+        lblLosserName.textColor(color: UIColor.black)
+        lblWinnerName.textColor(color: UIColor.black)
+        lblBattleCount.textColor(color: UIColor.black)
         
         arrAutobot = arrAllTransformer.filter({$0.team == "A"})
         arrDecepticon = arrAllTransformer.filter({$0.team == "D"})
@@ -111,12 +111,11 @@ class BattleVC: UIViewController {
         var battleCount : Int = 0
         
         let loopCount = min(arrAutobot.count,arrDecepticon.count)
-        print(loopCount)
-        
+
         self.showActivityIndicator()
         
-        self.arrteamDeliminate = self.arrDecepticon.compactMap({$0.name})
-        self.arrteamAeliminate = self.arrAutobot.compactMap({$0.name})
+        self.arrteamDeliminate = self.arrDecepticon
+        self.arrteamAeliminate = self.arrAutobot
         
         for i in 0...loopCount - 1 {
             
@@ -163,7 +162,7 @@ class BattleVC: UIViewController {
             imgWinner.af_setImage(withURL: URL(string: arrAutobot[0].teamIcon)!)
             lblBattleCount.text = "\(battleCount) Battle"
             lblWinnerName.text = "Winning team (Autobot) : \(arrteamAwinners.joined(separator: ", "))"
-            lblLosserName.text = arrteamDeliminate.isEmpty ? "" : "Survivors from the losing team (Decepticon) : \(arrteamDeliminate.joined(separator: ", "))"
+            lblLosserName.text = arrteamDeliminate.isEmpty ? "No Survivors" : "Survivors from the losing team (Decepticon) : \(arrteamDeliminate.compactMap({$0.name}).joined(separator: ", "))"
             
         } else if arrteamDwinners.count > arrteamAwinners.count {
             
@@ -173,7 +172,7 @@ class BattleVC: UIViewController {
             lblBattleCount.text = "\(battleCount) Battle"
             lblWinnerName.text = "Winning team (Decepticon) : \(arrteamDwinners.joined(separator: ", "))"
             
-            lblLosserName.text = arrteamAeliminate.isEmpty ? "" : "Survivors from the losing team (Autobot) : \(arrteamAeliminate.joined(separator: ", "))"
+            lblLosserName.text = arrteamAeliminate.isEmpty ? "No Survivors" : "Survivors from the losing team (Autobot) : \(arrteamAeliminate.compactMap({$0.name}).joined(separator: ", "))"
             
         } else {
             
@@ -196,12 +195,12 @@ class BattleVC: UIViewController {
         
         if isDwin {
             arrteamDwinners.append(teamD.name)
-            arrteamAeliminate = arrteamAeliminate.filter{$0 != teamA.name}
+            arrteamAeliminate = arrteamAeliminate.filter{$0.TransformerId != teamA.TransformerId}
             return true
             
         } else if isAwin {
             arrteamAwinners.append(teamA.name)
-            arrteamDeliminate = arrteamDeliminate.filter{$0 != teamD.name}
+            arrteamDeliminate = arrteamDeliminate.filter{$0.TransformerId != teamD.TransformerId}
             return true
             
         } else {
@@ -222,12 +221,12 @@ class BattleVC: UIViewController {
         
         if isDwin {
             arrteamDwinners.append(teamD.name)
-            arrteamAeliminate = arrteamAeliminate.filter{$0 != teamA.name}
+            arrteamAeliminate = arrteamAeliminate.filter{$0.TransformerId != teamA.TransformerId}
             return true
             
         } else if isAwin {
             arrteamAwinners.append(teamA.name)
-            arrteamDeliminate = arrteamDeliminate.filter{$0 != teamD.name}
+            arrteamDeliminate = arrteamDeliminate.filter{$0.TransformerId != teamD.TransformerId}
             return true
             
         } else {
@@ -248,12 +247,12 @@ class BattleVC: UIViewController {
         
         if isDwin {
             arrteamDwinners.append(teamD.name)
-            arrteamAeliminate = arrteamAeliminate.filter{$0 != teamA.name}
+            arrteamAeliminate = arrteamAeliminate.filter{$0.TransformerId != teamA.TransformerId}
             return true
             
         } else if isAwin {
             arrteamAwinners.append(teamA.name)
-            arrteamDeliminate = arrteamDeliminate.filter{$0 != teamD.name}
+            arrteamDeliminate = arrteamDeliminate.filter{$0.TransformerId != teamD.TransformerId}
             return true
             
         } else {
@@ -279,12 +278,12 @@ class BattleVC: UIViewController {
         
         if teamAoverallPoints > teamDoverallPoints {
             arrteamDwinners.append(teamD.name)
-            arrteamAeliminate = arrteamAeliminate.filter{$0 != teamA.name}
+            arrteamAeliminate = arrteamAeliminate.filter{$0.TransformerId != teamA.TransformerId}
             return true
             
         } else if teamDoverallPoints > teamAoverallPoints {
             arrteamAwinners.append(teamA.name)
-            arrteamDeliminate = arrteamDeliminate.filter{$0 != teamD.name}
+            arrteamDeliminate = arrteamDeliminate.filter{$0.TransformerId != teamD.TransformerId}
             return true
             
         } else { //if teamDoverallPoints == teamAoverallPoints

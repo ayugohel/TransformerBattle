@@ -1,5 +1,5 @@
 //
-//  HomeVC.swift
+//  TransformerVC.swift
 //  Transformer Battle
 //
 //  Created by Aayushi on 2019-08-10.
@@ -14,12 +14,12 @@ import Alamofire
 import AlamofireImage
 
 /**
- The purpose of the `HomeVC` view controller is to provide a user interface where display team Autobot & Decepticon List and also have an option for create  and edit Transformer, and Start battle option.
+ The purpose of the `TransformerVC` view controller is to provide a user interface where display team Autobot & Decepticon List and also have an option for create  and edit Transformer, and Start battle option.
  
- There's a matching scene in the *HomeVC.storyboard* file, and in that scene there is UITableViewfor display all Transformer's List. Go to Interface Builder for details.
+ There's a matching scene in the *TransformerVC.storyboard* file, and in that scene there is UITableViewfor display all Transformer's List. Go to Interface Builder for details.
  
  */
-class HomeVC: UIViewController {
+class TransformerVC: UIViewController {
     
     // MARK: Outlets
     
@@ -194,7 +194,7 @@ class HomeVC: UIViewController {
      */
     @IBAction func btnAddUpdateTapped(_ sender: Any) {
         
-        let vc = AppStoryboard.HOME.instance.instantiateViewController(withIdentifier: "AddUpdateVC") as! AddUpdateVC
+        let vc = AppStoryboard.TRANSFORMER.instance.instantiateViewController(withIdentifier: "AddUpdateVC") as! AddUpdateVC
         self.navigationController?.pushViewController(vc, animated: true)
         
     }
@@ -214,7 +214,7 @@ class HomeVC: UIViewController {
             return
         }
         
-        let vc = AppStoryboard.HOME.instance.instantiateViewController(withIdentifier: "BattleVC") as! BattleVC
+        let vc = AppStoryboard.TRANSFORMER.instance.instantiateViewController(withIdentifier: "BattleVC") as! BattleVC
         vc.arrAllTransformer = self.arrTransformerList
         self.navigationController?.pushViewController(vc, animated: true)
         
@@ -262,7 +262,7 @@ class  TransformerCell : UITableViewCell {
 
 // MARK: UITableViewDelegate, UITableViewDataSource Methods
 
-extension HomeVC : UITableViewDelegate, UITableViewDataSource {
+extension TransformerVC : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrTransformerList.count
@@ -272,11 +272,11 @@ extension HomeVC : UITableViewDelegate, UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "TransformerCell") as! TransformerCell
         
-        cell.lblName.textColor(color: UIColor.textColor)
+        cell.lblName.textColor(color: UIColor.black)
         
         let attributes: [NSAttributedString.Key: Any] = [
             .font: UIFont(name: appFont.semiBold, size: size16)!,
-            .foregroundColor: UIColor.textColor,
+            .foregroundColor: UIColor.black,
             .underlineStyle: NSUnderlineStyle.single.rawValue]
         
         let attributeString = NSMutableAttributedString(string: "Update",
@@ -291,7 +291,7 @@ extension HomeVC : UITableViewDelegate, UITableViewDataSource {
         cell.imgIcon.af_setImage(withURL: URL(string: data.teamIcon)!)
         
         cell.btnEdit.addAction {
-            let vc = AppStoryboard.HOME.instance.instantiateViewController(withIdentifier: "AddUpdateVC") as! AddUpdateVC
+            let vc = AppStoryboard.TRANSFORMER.instance.instantiateViewController(withIdentifier: "AddUpdateVC") as! AddUpdateVC
             vc.editDataTransformer = self.arrTransformerList[indexPath.row]
             vc.editype = .Edit
             self.navigationController?.pushViewController(vc, animated: true)
@@ -344,4 +344,5 @@ extension HomeVC : UITableViewDelegate, UITableViewDataSource {
  
  }
  } */
+
 

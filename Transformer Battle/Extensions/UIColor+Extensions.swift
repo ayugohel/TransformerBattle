@@ -4,8 +4,8 @@ import UIKit
 extension UIColor {
     
     //MARK: Global Color declaration
-    static let themeColor = UIColor.init(hexString: "#8E388E")//#FF9F1C")
-    static let textColor = UIColor.black
+    static let themeColor = UIColor.init(hexString: "#D92121")//#FF9F1C")
+    static let textColor = UIColor.white
 
     //MARK: convert hex to RGB
     convenience init(hexString: String) {

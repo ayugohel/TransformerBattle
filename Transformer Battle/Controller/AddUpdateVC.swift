@@ -136,6 +136,23 @@ class AddUpdateVC: UIViewController {
         activityIndicator.stopAnimating()
     }
     
+    func showAlert(message : String) {
+        
+        let titleStr = ""
+        let messageStr = message
+        
+        let alert = UIAlertController(title: titleStr, message: messageStr, preferredStyle: UIAlertController.Style.alert)
+        
+        let action = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { (_) -> Void in
+
+        })
+        
+        alert.addAction(action)
+        
+        alert.view.tintColor = UIColor.themeColor
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     // MARK: - API Methods
     
     /**
@@ -237,28 +254,60 @@ class AddUpdateVC: UIViewController {
     
     @IBAction func btnAddUpdateTapped(_ sender: Any) {
         
-        let param : Transformer = Transformer()
-        
-        param.name = txtName.text!
-        param.team = txtTeam.text! == "Autobot" ? "A" : "D"
-        param.strength = Int(txtStrength.text!)
-        param.intelligence = Int(txtIntelligence.text!)
-        param.speed = Int(txtSpeed.text!)
-        param.endurance = Int(txtEndurance.text!)
-        param.rank = Int(txtRank.text!)
-        param.courage = Int(txtCourage.text!)
-        param.firepower = Int(txtFirePower.text!)
-        param.skill = Int(txtSkill.text!)
-        
-        if editype == .Add {
-            param.id = 0
-            self.addTransformerAPI(param: param)
+        if txtName.text!.isEmpty {
+            self.showAlert(message: kName)
             
+        } else if txtTeam.text!.isEmpty {
+            self.showAlert(message: kTEAM)
+
+        } else if txtStrength.text!.isEmpty {
+            self.showAlert(message: kSTRENGTH)
+
+        } else if txtIntelligence.text!.isEmpty {
+            self.showAlert(message: kINTELLIGENCE)
+
+        } else if txtSpeed.text!.isEmpty {
+            self.showAlert(message: kSPEED)
+
+        } else if txtEndurance.text!.isEmpty {
+            self.showAlert(message: kENDURANCE)
+
+        } else if txtRank.text!.isEmpty {
+            self.showAlert(message: kRANK)
+
+        } else if txtCourage.text!.isEmpty {
+            self.showAlert(message: kCOURAGE)
+
+        } else if txtFirePower.text!.isEmpty {
+            self.showAlert(message: kFIREPOWER)
+
+        } else if txtSkill.text!.isEmpty {
+            self.showAlert(message: kSKILL)
+
         } else {
-            param.TransformerId = JSON(editDataTransformer.TransformerId!).stringValue
-            self.editTransformer(param: param)
+            
+            let param : Transformer = Transformer()
+            
+            param.name = txtName.text!
+            param.team = txtTeam.text! == "Autobot" ? "A" : "D"
+            param.strength = Int(txtStrength.text!)
+            param.intelligence = Int(txtIntelligence.text!)
+            param.speed = Int(txtSpeed.text!)
+            param.endurance = Int(txtEndurance.text!)
+            param.rank = Int(txtRank.text!)
+            param.courage = Int(txtCourage.text!)
+            param.firepower = Int(txtFirePower.text!)
+            param.skill = Int(txtSkill.text!)
+            
+            if editype == .Add {
+                param.id = 0
+                self.addTransformerAPI(param: param)
+                
+            } else {
+                param.TransformerId = JSON(editDataTransformer.TransformerId!).stringValue
+                self.editTransformer(param: param)
+            }
         }
-        
     }
     
     // MARK: - View Life Cycle Method
