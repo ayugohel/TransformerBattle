@@ -2,6 +2,27 @@
 
 This demo project for Transformer's Battle. The Application follows all the Rules and Regulation for the Battle. 
 
+## Info about Application 
+
+- Created Application with Xcode 10.3
+- Application is target iOS 10 and above
+- Application is a responsive universal
+- Application  built in either Swift 5.0
+
+## Usage of the App
+
+#### How to Start and Run :
+
+1. Open **Transformer Battle.xcworkspace** file with Xcode Editor
+2. Run application with 'CMD + R'
+
+- List of the Transformer
+- On Update Tapped able to update Transformer's Value
+- On UITableviewCell Swipe right to left Delete Transformer
+- On Create Tapped able to create new Transformer
+- On Start Battle Tapped , A Battle between tranformer and diplay the Result.
+
+
 #### Features of The App :
 This Application for Transformer's Battle between Autobot and Decepticon team.
 
@@ -32,13 +53,3 @@ there’s only going to be one battle)
 2. In the event either of the above face each other (or a duplicate of each other), the game immediately ends with all competitors destroyed
 
 
-## Usage of the App
-
-1. Open Transformer Battle.xcworkspace file with Xcode Editor
-2. Run application with 'CMD + R'
-
-- List of the Transformer
-- On Update Tapped able to update Transformer's Value
-- On UITableviewCell Swipe right to left Delete Transformer
-- On Create Tapped able to create new Transformer
-- On Start Battle Tapped , A Battle between tranformer and diplay the Result.
