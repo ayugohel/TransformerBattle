@@ -30,3 +30,13 @@ there’s only going to be one battle)
 #### Special rules for Battle :
 1. Any Transformer named Optimus Prime or Predaking wins his fight automatically regardless of any other criteria
 2. In the event either of the above face each other (or a duplicate of each other), the game immediately ends with all competitors destroyed
+
+
+## Usage of the App
+
+### TransformerVC
+    - List of the Transformer
+    - On Update Tapped able to update Transformer's Value
+    - On UITableviewCell Swipe right to left Delete Transformer
+    - On Create Tapped able to create new Transformer
+    - On Start Battle Tapped , A Battle between tranformer and diplay the Result.
