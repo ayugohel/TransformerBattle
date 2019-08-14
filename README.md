@@ -34,9 +34,8 @@ there’s only going to be one battle)
 
 ## Usage of the App
 
-### TransformerVC
-    - List of the Transformer
-    - On Update Tapped able to update Transformer's Value
-    - On UITableviewCell Swipe right to left Delete Transformer
-    - On Create Tapped able to create new Transformer
-    - On Start Battle Tapped , A Battle between tranformer and diplay the Result.
+- List of the Transformer
+- On Update Tapped able to update Transformer's Value
+- On UITableviewCell Swipe right to left Delete Transformer
+- On Create Tapped able to create new Transformer
+- On Start Battle Tapped , A Battle between tranformer and diplay the Result.
