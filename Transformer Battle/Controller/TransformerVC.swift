@@ -14,7 +14,7 @@ import Alamofire
 import AlamofireImage
 
 /**
- The purpose of the `TransformerVC` view controller is to provide a user interface where display team Autobot & Decepticon List and also have an option for create  and edit Transformer, and Start battle option.
+ The purpose of the `TransformerVC` view controller is to provide a user interface where display team Autobot & Decepticon List and also have an option for create and edit Transformer, and Start battle option, and on UITableviewCell Swipe to delete functionality used for delete Transformer.
  
  There's a matching scene in the *TransformerVC.storyboard* file, and in that scene there is UITableViewfor display all Transformer's List. Go to Interface Builder for details.
  
@@ -89,6 +89,26 @@ class TransformerVC: UIViewController {
         activityIndicator.isHidden = true
         UIApplication.shared.endIgnoringInteractionEvents()
         activityIndicator.stopAnimating()
+    }
+    
+    /**
+     This function is for and for show Alert.
+     */
+    func showAlert(message : String) {
+        
+        let titleStr = ""
+        let messageStr = message
+        
+        let alert = UIAlertController(title: titleStr, message: messageStr, preferredStyle: UIAlertController.Style.alert)
+        
+        let action = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { (_) -> Void in
+            
+        })
+        
+        alert.addAction(action)
+        
+        alert.view.tintColor = UIColor.themeColor
+        self.present(alert, animated: true, completion: nil)
     }
     
     
@@ -210,13 +230,16 @@ class TransformerVC: UIViewController {
         let arrAutobot = arrTransformerList.filter({$0.team == "A"})
         let arrDecepticon = arrTransformerList.filter({$0.team == "D"})
         
-        guard (!arrAutobot.isEmpty && !arrDecepticon.isEmpty) else {
-            return
+        if (!arrAutobot.isEmpty && !arrDecepticon.isEmpty) {
+            
+            let vc = AppStoryboard.TRANSFORMER.instance.instantiateViewController(withIdentifier: "BattleVC") as! BattleVC
+            vc.arrAllTransformer = self.arrTransformerList
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+        } else {
+            self.showAlert(message: kAdd)
         }
         
-        let vc = AppStoryboard.TRANSFORMER.instance.instantiateViewController(withIdentifier: "BattleVC") as! BattleVC
-        vc.arrAllTransformer = self.arrTransformerList
-        self.navigationController?.pushViewController(vc, animated: true)
         
     }
     

@@ -136,6 +136,9 @@ class AddUpdateVC: UIViewController {
         activityIndicator.stopAnimating()
     }
     
+    /**
+     This function is for and for show Alert.
+     */
     func showAlert(message : String) {
         
         let titleStr = ""

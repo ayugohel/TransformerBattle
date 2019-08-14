@@ -29,6 +29,7 @@ let kRANK = "Please select rank"
 let kCOURAGE = "Please select courage"
 let kFIREPOWER = "Please select firepower"
 let kSKILL = "Please select skill"
+let kAdd = "Please add Transformer for Battle"
 
 //MARK: storyboard instance
 enum AppStoryboard : String {
