@@ -34,6 +34,9 @@ there’s only going to be one battle)
 
 ## Usage of the App
 
+1. Open Transformer Battle.xcworkspace file with Xcode Editor
+2. Run application with 'CMD + R'
+
 - List of the Transformer
 - On Update Tapped able to update Transformer's Value
 - On UITableviewCell Swipe right to left Delete Transformer
